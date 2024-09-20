@@ -9,35 +9,6 @@
 
 
     <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="694dp"
-        android:layout_height="730dp"
-        android:layout_marginEnd="52dp"
-        android:rotationY="180"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/blue"
-        tools:layout_editor_absoluteY="95dp" />
-
-    <ImageView
-        android:id="@+id/imageView23"
-        android:layout_width="816dp"
-        android:layout_height="1009dp"
-        android:translationX="35dp"
-        android:translationY="-20dp"
-        app:srcCompat="@drawable/yellow"
-        tools:layout_editor_absoluteX="-99dp"
-        tools:layout_editor_absoluteY="341dp" />
-
-    <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="534dp"
-        android:layout_height="734dp"
-        android:layout_marginBottom="80dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:srcCompat="@drawable/red"
-        tools:layout_editor_absoluteX="16dp" />
-
-    <ImageView
         android:id="@+id/imageView25"
         android:layout_width="93dp"
         android:layout_height="156dp"
@@ -48,33 +19,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/iconlogo" />
 
-    <EditText
-        android:id="@+id/campoSenhaLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="318dp"
-        android:layout_marginBottom="368dp"
-        android:ems="10"
-        android:fontFamily="@font/montserrat"
-        android:inputType="textPassword"
-        android:text="senha:"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.536"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/btLogin"
         android:layout_width="129dp"
         android:layout_height="44dp"
-        android:layout_marginTop="72dp"
         android:layout_marginBottom="252dp"
         android:backgroundTint="#b3cdc5"
         android:fontFamily="@font/montserrat"
         android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/campoSenhaLogin"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="140dp" />
 
@@ -117,13 +70,27 @@
         android:id="@+id/campoEmailLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="242dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginTop="240dp"
         android:ems="10"
         android:fontFamily="@font/montserrat"
         android:inputType="textEmailAddress"
         android:text="Email: "
-        app:layout_constraintBottom_toTopOf="@+id/campoSenhaLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/campoSenhaLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="376dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
